@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>encriptar-desencriptar</title>
+    
+</head>
+<body>
+    <header>
+        <br>
+        <marquee behavior="alternate" width="100%" scrollamount="20"><h1>Encripta Tu Mensaje!!</h1> </marquee>
+        
+    </header>
+    <main>
+       <form>
+            <section>
+                <textarea class="texto" name="encriptar" id="input" cols="55%" rows="12%" required placeholder="Ingrese el texto a encriptar"></textarea>
+                <textarea  class="texto" name="descencriptar" id="output" cols="55%" rows="12%" required placeholder="Resultado..."></textarea>
+            </section>
+            <section >
+                
+                <button onclick="encrip()" id="btn-encriptar" class="boton" type="button">Encriptar</button>
+                <button onclick="desencrip()" id="btn-desencriptar" class="boton" type="button">Desencriptar</button>
+                <button onclick="cop()" id="btn-copiar" class="boton" type="button">Copiar</button>
+               
+            </section>
+
+        </form>
+    </main>
+    <footer>
+        
+        <p class="copyright">&copy Copyrigth Juan Pablo Calderon / Martha Yurley Medina- 2023</p>
+        <img class="logo" src="oracle.svg" alt="">
+        <img class="logo" src="alura.webp" alt="">
+    </footer>
+   
+</body>
+<script src="documento.js"></script>
+</html>

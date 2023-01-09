@@ -1,0 +1,104 @@
+body
+{
+    width:100% ;
+    background-image: url(old-black.jpg);
+}
+h1
+{
+    color: white;
+    font-size: 60px;
+    width: 10%;
+    text-align: center;
+    padding-top: 40px;
+}
+header
+{
+   background-image: url(old-black.jpg);
+    height:150px; 
+    text-align: center;
+}
+
+.logo
+{
+    width: 8rem;
+    padding: 20 0 20 0px;
+    margin: 20px;
+    
+}
+main
+{
+    padding: 50px;
+
+    
+}
+
+form{
+    text-align: center;
+
+}
+
+textarea
+{
+    height: 200px;
+    
+   
+}
+textarea:hover
+{
+    border-color: black;
+    border-width: 8px;
+
+}
+.texto
+{
+    border-radius: 20px;
+    margin: 1rem;
+    font-style: italic;
+    font-size: small;
+    padding: 10px;
+    
+}
+.boton
+{
+    width: 120px;
+    height: 60px;
+    padding: 2px;
+    font-style: italic;
+    cursor: pointer;
+    font-weight: 100;
+    border-radius: 25px;
+    font-size: 1rem;
+    
+    
+}
+.boton:hover{
+    font-size: 1rem;
+    background: #000;
+    color: #fff;
+    transform: rotate(5deg);    
+}
+
+
+footer
+{
+    background-image: url(/20230109-challenges-1-ONE/old-black.jpg);
+    text-align: center;
+    color: white;
+    padding: 100px;
+    
+}
+
+.copyright{
+    font-size: 2em;
+}
+
+@media screen and (max-width:480px) 
+{
+    h1{
+     text-align: center;
+    }
+    textarea{
+        width: 17rem;
+        height: 15rem;
+    }
+}
